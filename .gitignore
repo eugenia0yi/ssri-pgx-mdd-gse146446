@@ -1,0 +1,5 @@
+data/raw/
+*.Rhistory
+*.RData
+.DS_Store
+

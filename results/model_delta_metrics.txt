@@ -1,0 +1,12 @@
+Model: delta
+Seed: 123
+Train size: 67
+Test size: 29
+TopK features (variance, train-only): 100
+AUC: 0.6234
+
+Confusion Matrix (threshold=0.5):
+         Actual
+Predicted  0  1
+        0  5 10
+        1  2 12
