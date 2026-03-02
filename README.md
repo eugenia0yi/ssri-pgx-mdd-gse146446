@@ -120,7 +120,7 @@ Delta modeling outperformed baseline, suggesting treatment-induced transcription
 
 ## 📁 Project Structure
 
-’‘’
+```text
 ssri-pgx-mdd-gse146446/
 │
 ├── data/
@@ -140,7 +140,7 @@ ssri-pgx-mdd-gse146446/
 │ └── model_metrics.txt
 │
 └── README.md
-‘’‘
+```
 
 ---
 
