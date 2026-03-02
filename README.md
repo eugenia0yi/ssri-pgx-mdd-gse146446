@@ -119,3 +119,53 @@ Delta modeling outperformed baseline, suggesting treatment-induced transcription
 ---
 
 ## 📁 Project Structure
+ssri-pgx-mdd-gse146446/
+│
+├── data/
+│ ├── DLX_baseline_modeling_ready.rds
+│ └── processed/DLX_delta_data.rds
+│
+├── scripts/
+│ ├── 01_cleaning.R
+│ ├── 02_DE_analysis.R
+│ └── 03_modeling.R
+│
+├── results/
+│ ├── ROC_baseline.png
+│ ├── ROC_delta.png
+│ ├── heatmap_delta.png
+│ ├── volcano_delta.png
+│ └── model_metrics.txt
+│
+└── README.md
+
+
+---
+
+## 🧠 Key Skills Demonstrated
+
+- Clinical RNA-seq data processing
+- Metadata harmonization
+- Differential gene expression analysis (limma)
+- Logistic regression modeling
+- ROC/AUC performance evaluation
+- Reproducible research structure
+- GitHub version control workflow
+
+---
+
+## 🚀 Future Enhancements
+
+- 5-fold cross-validation
+- Random Forest comparison
+- Pathway enrichment analysis
+- Feature importance interpretation
+- Clinical model explanation
+
+---
+
+## 👩‍💻 Author
+
+Eugenia Yi  
+Translational Bioinformatics Modeling Project  
+Built in R
