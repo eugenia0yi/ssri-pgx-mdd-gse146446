@@ -3,3 +3,11 @@ data/raw/
 *.RData
 .DS_Store
 
+
+# R project user files
+.Rproj.user/
+
+# Temporary outputs
+results/test_roc.png
+xxx.png
+
