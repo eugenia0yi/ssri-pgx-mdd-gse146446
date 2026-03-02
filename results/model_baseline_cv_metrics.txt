@@ -1,0 +1,9 @@
+Model: baseline (5-fold CV, out-of-fold)
+Seed: 123
+TopK (variance on TRAIN only): 100
+OOF AUC: 0.6006
+Fold AUC mean: 0.702
+Fold AUC sd: 0.113
+
+Fold AUCs:
+  0.76, 0.5833, 0.75, 0.5833, 0.8333

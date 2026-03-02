@@ -1,0 +1,9 @@
+Model: delta (5-fold CV, out-of-fold)
+Seed: 123
+TopK (variance on TRAIN only): 100
+OOF AUC: 0.5565
+Fold AUC mean: 0.6107
+Fold AUC sd: 0.0926
+
+Fold AUCs:
+  0.5867, 0.675, 0.675, 0.6583, 0.4583
