@@ -165,6 +165,28 @@ ssri-pgx-mdd-gse146446/
 
 ---
 
+## Cross-Validation Upgrade (v2.0)
+
+To improve model robustness beyond a single 70/30 split, we implemented 
+**5-fold stratified cross-validation with out-of-fold (OOF) predictions.**
+
+### 5-fold CV Results (OOF AUC)
+
+- Baseline model: **0.601**
+- Delta model (T8 − T0): **0.557**
+
+Fold-level mean ± SD:
+- Baseline: 0.702 ± 0.113
+- Delta: 0.611 ± 0.093
+
+### Interpretation
+
+While the delta model showed slightly higher performance in a single split, 
+cross-validation suggests that baseline transcriptomic features may provide 
+more stable predictive signal in this dataset.
+
+Cross-validation improves reliability and reduces optimism bias from single-split evaluation.
+
 ## 👩‍💻 Author
 
 Eugenia Yi  
